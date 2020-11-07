@@ -25,6 +25,7 @@
         <module>renren-generator</module>
         <module>tutumall-common</module>
         <module>tutumall-gateway</module>
+        <module>tutumall-third-party</module>
     </modules>
 
 

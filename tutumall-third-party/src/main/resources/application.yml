@@ -1,0 +1,13 @@
+
+
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.96.21.135:8848
+  application:
+    name: tutumall-third-party
+
+server:
+  port: 30000

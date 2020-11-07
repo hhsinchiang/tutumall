@@ -9,6 +9,9 @@ import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 @Configuration
 public class TutumallCorsConfiguration {
 
+
+
+    //配置跨域
     @Bean
     public CorsWebFilter corsWebFilter(){
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
