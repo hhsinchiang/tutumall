@@ -23,8 +23,8 @@ class TutumallThirdPartyApplicationTests {
         @Test
     public void oss() throws FileNotFoundException {
         // 上传文件流。
-        InputStream inputStream = new FileInputStream("C:\\Users\\Administrator\\Desktop\\jhx.jpg");
-        ossClient.putObject("tutumall", "jhx.jpg", inputStream);
+        InputStream inputStream = new FileInputStream("C:\\Users\\Administrator\\Desktop\\jhx1.jpg");
+        ossClient.putObject("tutumall", "jhx111.jpg", inputStream);
 
         // 关闭OSSClient。
         ossClient.shutdown();
